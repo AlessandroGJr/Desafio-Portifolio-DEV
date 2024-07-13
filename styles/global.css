@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Font family and size TITLE */
+
+    --font-title: "Asap", sans-serif;;
+    
+    --title-lg: 800 56px/120% var(--font-title);
+    --title-md: 800 24px/120% var(--font-title);
+    --title-sm: 800 16px/120% var(--font-title);
+
+
+    /* Font family and size SUBTITLE */
+    --font-sub: "Inconsolata", monospace;
+    
+    --sub: 400 20px/120% var(--font-sub);
+
+    /* Font family and size Text*/
+
+    --font-text: "Maven Pro", sans-serif;
+
+    --text-md: 400 16px/140% var(--font-text);
+    --text-sm: 400 14px/140% var(--font-text); 
+
+
+    
+}
