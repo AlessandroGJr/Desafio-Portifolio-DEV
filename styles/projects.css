@@ -9,7 +9,6 @@
    
 
     header  {
-        
         display: flex;
         flex-direction: column;
         
@@ -17,15 +16,10 @@
         
         margin-bottom: 56px;
         gap: 8px;
-
     }
 
     #grid {
         
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-
         .card {
 
             height: 280px;

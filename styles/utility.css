@@ -27,3 +27,17 @@
 .redd {
     color: var(--red);
 }
+
+.grid {
+    display: grid;
+}
+
+.grid-3cols {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+
