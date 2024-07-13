@@ -39,12 +39,16 @@
                 margin-top: 20px;
 
             }
-
+            
             img {
                 width: 306px;
                 height: 156px;
                 border-radius: 8px;
             }
+        }
+
+        .card:hover {
+            border: 1px solid var(--gray-400);
         }
     }
 
