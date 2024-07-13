@@ -41,11 +41,39 @@
     --red: #E3646E;
     --purple: #BB72E9;
     --blue: #3996DB; 
-    --gren: #82BC4F;
+    --green: #82BC4F;
     --yelow: #EABD5F;
 
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
     color: var(--gray-600);
+}
+
+p, h4{
+    color: var(--gray-500);
+}
+
+
+body {
+    background-color: var(--gray-200);
+}
+
+
+
+
+.filter-blue {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(100%) saturate(367%) hue-rotate(164deg) brightness(89%) contrast(91%);
+}
+
+.filter-yellow  {
+    filter: brightness(0) saturate(100%) invert(79%) sepia(37%) saturate(644%) hue-rotate(349deg) brightness(96%) contrast(90%);
+}
+
+.filter-red {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(23%) saturate(1779%) hue-rotate(309deg) brightness(94%) contrast(88%);
+}
+
+.filter-green {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(6%) saturate(4755%) hue-rotate(49deg) brightness(111%) contrast(55%);
 }
